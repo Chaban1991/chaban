@@ -1,10 +1,157 @@
-.zheniaandnick{
-    color: #900704;
-    font-size: 120px;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-.zheniaandnick strong{
+/*заменить на #273748*/
+#footer{
+    background-color: #273748;
+    height: 279px;
+    width: 100%;
 
-    color: yellowgreen;
-	
 }
+
+#nav{
+    width: 100px;
+    height: 134px;
+    float: left;
+    margin: 64px;
+
+}
+
+#nav .column p{
+    font: 16px 'Ubuntu';
+    margin-left: 15px;
+    list-style:none;
+
+
+}
+
+#nav .column  a{
+    font: 14px 'Ubuntu';
+    line-height: 25px;
+    clear:both;
+    text-align:left;
+    list-style:none;
+    text-decoration: none;
+    color: rgb( 255, 255, 255 );
+
+}
+
+li{
+
+    list-style:none;
+}
+
+.fa-globe{
+    color: rgb( 255, 255, 255 );
+    border-bottom: 2px solid #3d566f;
+    padding-bottom: 5px;
+
+}
+
+
+.services{
+    width: 200px;
+    height: 134px;
+    float: left;
+    margin: 64px;
+    color: rgb( 255, 255, 255 );
+
+}
+
+.services li{
+    font: 14px 'Ubuntu';
+    line-height: 25px;
+    clear:both;
+    text-align:left;
+    list-style:none;
+    text-decoration: none;
+    margin-top:8px;
+}
+
+
+.fa-briefcase{
+    font-size: 16px;
+    list-style:none;
+    border-bottom: 2px solid #3d566f;
+    padding-bottom: 5px;
+
+
+}
+
+
+/*кнопка вниз.*/
+.fa-angle-down{
+
+    margin-left: 30px;
+}
+/*кнопка вниз.*/
+
+input{
+    width: 206px;
+    height: 35px;
+    background-color:#629ab1;
+    position: absolute;
+    margin-left: 92px;
+    margin-top:78px;
+    left: 545px;
+    z-index: 7;
+    border-radius: 4px;
+    background-image: -moz-linear-gradient( 90deg, rgb( 0, 0, 0 ) 0%, rgb( 255, 255, 255 ) 100%);
+    cursor: pointer;
+}
+
+
+.word{
+    color: rgb( 255, 255, 255 );
+    font-family: Ubuntu;
+    font-size: 16px;
+    position: absolute;
+    z-index: 6;
+}
+
+.social {
+    position: absolute;
+    left: 690px;
+    top: 150px;
+    width: 107px;
+    height: 50px;
+    z-index: 15;
+    text-decoration: none;
+    float: left;
+
+
+}
+.fa-twitter-square{
+    color: rgb( 52, 73, 94 );
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    color: #629ab1;
+    z-index: 10;
+
+}
+
+.fa-facebook-square{
+    color: rgb( 52, 73, 94 );
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    color: #629ab1;
+    z-index: 11;
+}
+
+.fa-vk{
+    color: rgb( 52, 73, 94 );
+    text-decoration: none;
+    width: 35px;
+    height: 30px;
+    color: #629ab1;
+    z-index: 12;
+}
+
