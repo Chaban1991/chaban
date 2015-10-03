@@ -20,7 +20,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 134px;
     float: left;
     margin: 64px;
+<<<<<<< HEAD
     margin-left: 20px;
+=======
+>>>>>>> c733d47892e3e40cef7b5968405e98b218d853e8
 
 }
 
@@ -93,6 +96,7 @@ li{
 }
 /*кнопка вниз.*/
 
+<<<<<<< HEAD
 button{
     width:206px;
     height:35px;
@@ -120,10 +124,41 @@ button{
     margin-top: 13px;
     margin-left: 30px;
     padding: 13px 7px;
+=======
+input{
+    width: 206px;
+    height: 35px;
+    background-color:#629ab1;
+    position: absolute;
+    margin-left: 92px;
+    margin-top:78px;
+    left: 545px;
+    z-index: 7;
+    border-radius: 4px;
+    background-image: -moz-linear-gradient( 90deg, rgb( 0, 0, 0 ) 0%, rgb( 255, 255, 255 ) 100%);
+    cursor: pointer;
+}
+
+
+.word{
+    color: rgb( 255, 255, 255 );
+    font-family: Ubuntu;
+    font-size: 16px;
+    position: absolute;
+    z-index: 6;
+}
+
+.social {
+    position: absolute;
+    left: 690px;
+    top: 150px;
+    width: 107px;
+>>>>>>> c733d47892e3e40cef7b5968405e98b218d853e8
     height: 50px;
     z-index: 15;
     text-decoration: none;
     float: left;
+<<<<<<< HEAD
     line-height: 1.75em;
 
 }
@@ -193,3 +228,36 @@ button{
 
 
 
+=======
+
+
+}
+.fa-twitter-square{
+    color: rgb( 52, 73, 94 );
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    color: #629ab1;
+    z-index: 10;
+
+}
+
+.fa-facebook-square{
+    color: rgb( 52, 73, 94 );
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    color: #629ab1;
+    z-index: 11;
+}
+
+.fa-vk{
+    color: rgb( 52, 73, 94 );
+    text-decoration: none;
+    width: 35px;
+    height: 30px;
+    color: #629ab1;
+    z-index: 12;
+}
+
+>>>>>>> c733d47892e3e40cef7b5968405e98b218d853e8
